@@ -2,19 +2,18 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HeroSection from "../components/Sections/HeroSection.astro";
 import EventList from "../components/Sections/EventList.astro";
-import SermonList from "../components/Sections/SermonList.astro";
 import Button from "../components/UI/Button.astro";
 ---
 
 <BaseLayout>
   <HeroSection 
-    title="Welcome to Our Church"
-    subtitle="A place of worship, community, and spiritual growth"
-    backgroundImage="/uploads/hero-bg.webp"
-    ctaText="Plan Your Visit"
-    ctaLink="/im-new"
-    secondaryCtaText="Watch Sermons"
-    secondaryCtaLink="/sermons"
+    title="Tiger Kicks Martial Arts"
+    subtitle="Better Shape, Better Condition, Better Life!"
+    backgroundImage="/uploads/hero-bg.jpg"
+    ctaText="Free Trial Offer"
+    ctaLink="/contact"
+    secondaryCtaText="View Classes"
+    secondaryCtaLink="/classes"
   />
   
   <!-- Service Times -->
@@ -78,8 +77,6 @@ import Button from "../components/UI/Button.astro";
   <!-- Events Section -->
   <EventList />
   
-  <!-- Sermons Section -->
-  <SermonList />
   
   <!-- Ministries Preview -->
   <section class="py-16 bg-gray-50">
