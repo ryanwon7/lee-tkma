@@ -7,6 +7,7 @@ summary: "Students learn martial arts skills along with other physical activitie
 order: 2
 availability: "Summer (June - August)"
 days: "Monday - Friday"
+image_position: "top center"
 ---
 
 ## Summer Camp
