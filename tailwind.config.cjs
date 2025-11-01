@@ -41,10 +41,14 @@ module.exports = {
           800: '#0b2559',
           900: '#081a3d',
         },
+        card: {
+          1: '#1f1f1f',
+          2: '#1a1a1a',
+        }
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['"Source Sans Pro"', 'system-ui', 'sans-serif'],
+        serif: ['"Bebas Neue"', 'Georgia', 'serif'],
+        sans: ['"Lato"', 'system-ui', 'sans-serif'],
       },
     },
   },

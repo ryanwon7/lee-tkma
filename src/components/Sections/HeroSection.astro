@@ -28,18 +28,36 @@ const {
 >
 
   <div class="container">
-    <div class="max-w-3xl text-white">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">{title}</h1>
-      <p class="text-xl md:text-2xl mb-8">{subtitle}</p>
-      
-      <div class="flex flex-wrap gap-4">
-        <Button href={ctaLink} variant="primary" size="lg">
-          {ctaText}
-        </Button>
+    <div class="hidden md:block lg:block">
+      <div class="max-w-3xl text-white">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">{title}</h1>
+        <p class="text-xl md:text-2xl mb-8">{subtitle}</p>
         
-        <Button href={secondaryCtaLink} variant="outline" size="lg" class="bg-white/10 text-white border-white hover:bg-white hover:text-gray-900 backdrop-blur-sm">
-          {secondaryCtaText}
-        </Button>
+        <div class="flex flex-wrap gap-4">
+          <Button href={ctaLink} variant="primary" size="xl">
+            {ctaText}
+          </Button>
+          
+          <Button href={secondaryCtaLink} variant="outline" size="xl" class="bg-white/10 text-white border-white hover:bg-white hover:text-gray-900 backdrop-blur-sm">
+            {secondaryCtaText}
+          </Button>
+        </div>
+      </div>
+    </div>
+    <div class="block md:hidden lg:hidden">
+      <div class="max-w-3xl text-white">
+        <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold mb-4 text-white">{title}</h1>
+        <p class="text-xl md:text-2xl mb-8">{subtitle}</p>
+        
+        <div class="flex flex-wrap gap-4">
+          <Button href={ctaLink} variant="primary" size="lg">
+            {ctaText}
+          </Button>
+          
+          <Button href={secondaryCtaLink} variant="outline" size="lg" class="bg-white/10 text-white border-white hover:bg-white hover:text-gray-900 backdrop-blur-sm">
+            {secondaryCtaText}
+          </Button>
+        </div>
       </div>
     </div>
   </div>
