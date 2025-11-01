@@ -7,6 +7,7 @@ summary: "Happy Birthday to you."
 order: 1
 availability: "Year-Round (By Appointment)"
 days: "Saturday"
+image_position: "50% 20%"
 ---
 
 ## Birthday Party

@@ -37,7 +37,8 @@ const programs = all.sort((a, b) =>
             title={program.data.name}
             image={{
               src: program.data.logo,
-              alt: program.data.name
+              alt: program.data.name,
+              position: program.data.image_position
             }}
             href={`/programs/${program.slug}`}
             className="opacity-90 hover:opacity-100"
