@@ -2,16 +2,16 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHeader from "../components/Sections/PageHeader.astro";
 
-const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
+const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "27e3dd5d-1673-4258-a175-b383d1187e95";
 ---
 
 <BaseLayout
-  title="Contact"
-  description="Get in touch with TKMA Taekwondo Academy. Contact us for class information, training schedules, belt testing, competitions, and enrollment. Visit our dojang or reach out to our instructors."
+  title="Free Trial"
+  description="Sign up for a free trial class at Tiger Kicks Martial Arts and experience the benefits of Taekwondo!"
 >
   <PageHeader
-    title="Contact"
-    subtitle="We'd love to hear from you"
+    title="Free Trial Sign-Up"
+    subtitle="Sign up for a Free Trial Class at Tiger Kicks Martial Arts!"
     backgroundImage="/uploads/contact-header.jpg"
   />
 
@@ -22,7 +22,7 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
         <!-- Contact Form -->
         <div class="md:col-span-2">
           <h2 class="text-4xl font-bold text-gray-800 mb-6">
-            Contact Us
+            Free Trial Class Sign-Up
           </h2>
           <div class="container mx-auto max-w-4xl">
             <form
@@ -98,7 +98,7 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
                 <label
                   for="subject"
                   class="block text-sm font-medium text-gray-700 mb-1"
-                  >Subject</label
+                  >Subject *</label
                 >
                 <select
                   id="subject"
@@ -108,9 +108,31 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
                 >
                   <option value="">Select a subject</option>
                   <option value="General Questions">General Questions</option>
-                  <option value="Free Trial Class">Free Trial Class</option>
+                  <option value="Free Trial Class" selected>Free Trial Class</option>
                   <option value="Business Opportunities">Business Opportunities</option>
                   <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="md:col-span-2">
+                <label
+                  for="class"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Interested Class *</label
+                >
+                <select
+                  id="class"
+                  name="class"
+                  required
+                  class="border border-gray-300 rounded-md p-3 w-full focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors text-gray-800"
+                >
+                  <option value="">Classes interested in</option>
+                  <option value="Tiger Club">Tiger Club</option>
+                  <option value="Junior Tiger">Junior Tiger</option>
+                  <option value="Black Belt Class">Black Belt Class</option>
+                  <option value="Family, Teen, & Adult Class">Family, Teen, & Adult Class</option>
+                  <option value="Demo Team Class">Demo Team Class</option>
+                  <option value="Private Lessons">Private Lessons</option>
                 </select>
               </div>
 
@@ -129,13 +151,13 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
                   maxlength="1000"
                   placeholder="Tell us about your interest in Taekwondo, any experience level, specific questions, or anything else you'd like us to know..."
                   class="border border-gray-300 rounded-md p-3 w-full focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors resize-y text-gray-800"
-                ></textarea>
+                >I want to sign up for free trial!</textarea>
                 <!-- <div class="text-sm text-gray-500 mt-1">
                   <span id="char-count">0</span>/1000 characters
                 </div> -->
               </div>
 
-              <!-- Simple Human Verification 
+              <!-- Simple Human Verification
               <div class="md:col-span-2">
                 <div class="bg-gray-50 p-4 rounded-lg border">
                   <label class="flex items-center space-x-3 cursor-pointer">
@@ -154,7 +176,8 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
                     Please check this box to verify you're human
                   </p>
                 </div>
-              </div> -->
+              </div>
+            -->
 
               <!-- Submit Button -->
               <div class="md:col-span-2">
@@ -318,9 +341,9 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
   </section>
 
   <!-- Load hCaptcha and form validation script -->
-  <script src="https://web3forms.com/client/script.js" async defer></script>
+  <!-- <script src="https://web3forms.com/client/script.js" async defer></script>
 
-  <!-- <script>
+  <script>
     // Character counter for message field
     const messageField = document.getElementById(
       "message",
@@ -495,5 +518,5 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
         if (loadingText) loadingText.classList.add("hidden");
       }
     }
-  </script>
+  </script> -->
 </BaseLayout>
