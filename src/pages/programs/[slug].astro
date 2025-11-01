@@ -2,16 +2,17 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeader from "../../components/Sections/PageHeader.astro";
 import Button from "../../components/UI/Button.astro";
+import Gallery from '../../components/UI/Gallery.astro';
 import { getCollection } from "astro:content";
 
-// Generate static paths for all ministries
+// Generate static paths for all programs
 export async function getStaticPaths() {
   try {
-    const ministryEntries = await getCollection("ministries", ({ data }) => {
+    const programEntries = await getCollection("programs", ({ data }) => {
       return import.meta.env.PROD ? !data.draft : true;
     });
 
-    return ministryEntries.map(entry => ({
+    return programEntries.map(entry => ({
       params: { slug: entry.slug },
       props: { entry },
     }));
@@ -21,7 +22,7 @@ export async function getStaticPaths() {
   }
 }
 
-// Get the ministry data
+// Get the Programs data
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
@@ -33,14 +34,20 @@ const { Content } = await entry.render();
 >
   <PageHeader 
     title={entry.data.name} 
-    backgroundImage="/uploads/ministry-detail-bg.webp"
+    backgroundImage="/uploads/programs-header-bg.jpg"
   />
+
   
-  <section class="py-16">
+  <section class="py-16 bg-gray-50">
     <div class="container">
+  
+
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
         <!-- Main Content -->
+         
         <div class="lg:col-span-2">
+      <Gallery folder={entry.data.gallery} alt="Summer Camp" aspect="3/2" auto={true} delay={4000} />
+          
           <div class="prose prose-lg max-w-none prose-headings:text-gray-900 prose-h2:text-2xl prose-h3:text-xl prose-h4:text-lg prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
             <Content />
           </div>
@@ -49,56 +56,31 @@ const { Content } = await entry.render();
         <!-- Sidebar -->
         <div>
           <div class="bg-gray-50 p-6 rounded-lg shadow-sm sticky top-24">
-            {
-              entry.data.logo && (
-                <div class="mb-6 flex justify-center">
-                  <img 
-                    src={entry.data.logo} 
-                    alt={entry.data.name} 
-                    class="max-h-48 w-auto"
-                  />
-                </div>
-              )
-            }
             
-            <h3 class="text-xl font-bold mb-4">Ministry Information</h3>
+            <h3 class="text-xl font-bold mb-4">Program Information</h3>
             
             <div class="space-y-4 mb-6">
-              {entry.data.coordinator && (
+              {entry.data.availability && (
                 <div>
-                  <h4 class="font-bold text-gray-700">Coordinator</h4>
-                  <p>{entry.data.coordinator}</p>
+                  <h5 class="font-bold text-gray-700">Availability</h4>
+                  <p class="font-bold text-gray-700">{entry.data.availability}</p>
                 </div>
               )}
-              
-              {entry.data.contact && (
+              {entry.data.days && (
                 <div>
-                  <h4 class="font-bold text-gray-700">Contact</h4>
-                  {entry.data.contact.includes('@') ? (
-                    <a href={`mailto:${entry.data.contact}`} class="text-primary-600 hover:text-primary-700">
-                      {entry.data.contact}
-                    </a>
-                  ) : (
-                    <p>{entry.data.contact}</p>
-                  )}
-                </div>
-              )}
-              
-              {entry.data.schedule && (
-                <div>
-                  <h4 class="font-bold text-gray-700">Schedule</h4>
-                  <p>{entry.data.schedule}</p>
+                  <h5 class="font-bold text-gray-700">Days</h4>
+                  <p class="font-bold text-gray-700">{entry.data.days}</p>
                 </div>
               )}
             </div>
             
             <div class="flex flex-col space-y-3">
-              <Button href="/contact?subject=Ministry+Inquiry" variant="primary">
-                Get Involved
+              <Button href="/contact?subject=Programs+Inquiry" variant="primary">
+                Interested? Contact Us
               </Button>
               
-              <Button href="/ministries" variant="outline">
-                Back to All Ministries
+              <Button href="/programs" variant="outline">
+                Back to All Programs
               </Button>
             </div>
           </div>

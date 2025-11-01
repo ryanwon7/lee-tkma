@@ -1,0 +1,269 @@
+---
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  /** Subfolder under /src/assets/gallery (e.g. "summercamp" or "events/summercamp") */
+  folder: string;
+  /** Base alt text for images */
+  alt?: string;
+  /** CSS aspect-ratio, e.g. "16/9", "3/2", "4/3" */
+  aspect?: string;
+  /** Enable autoplay */
+  auto?: boolean;
+  /** Autoplay delay in ms */
+  delay?: number;
+}
+
+const {
+  folder,
+  alt = 'Gallery image',
+  aspect = '16/9',
+  auto = true,
+  delay = 5000,
+} = Astro.props;
+
+// Normalize folder: trim any leading/trailing slashes
+const norm = folder.replace(/^\/+|\/+$/g, '');
+
+// IMPORTANT: this file assumed at src/components/UI/Gallery.astro
+// so assets are two levels up: ../../assets/...
+const allMods = import.meta.glob<{ default: ImageMetadata }>(
+  '../../assets/gallery/**/*.{jpg,jpeg,png,webp,avif,JPG,JPEG,PNG,WEBP,AVIF}',
+  { eager: true }
+);
+
+// Filter only images under the requested folder
+const entries = Object.entries(allMods).filter(([p]) =>
+  p.includes(`/gallery/${norm}/`)
+);
+
+if (import.meta.env.DEV && entries.length === 0) {
+  // eslint-disable-next-line no-console
+  console.warn('[Gallery] No matches for folder:', norm, '— glob saw keys like:', Object.keys(allMods).slice(0, 8));
+}
+
+const images = entries
+  .sort(([a], [b]) => a.localeCompare(b)) // predictable order
+  .map(([, m]) => m.default);
+
+const uid = `gal_${Math.random().toString(36).slice(2)}`;
+---
+
+<style>
+  :root {
+    --nav-bg: rgba(0, 0, 0, 0.4);
+    --nav-bg-hover: rgba(0, 0, 0, 0.6);
+  }
+
+  .wrap { position: relative; }
+
+  .slider {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.5rem;
+    outline: none;
+    border-radius: 0.75rem;
+    position: relative;
+  }
+
+  .slide { scroll-snap-align: center; position: relative; }
+
+  .frame {
+    width: 100%;
+    aspect-ratio: var(--aspect, 16/9);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: #0a0a0a10;
+    position: relative;
+  }
+
+  .slider::-webkit-scrollbar { display: none; }
+
+  /* Overlay nav buttons: hidden by default */
+  .nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;                /* tall, full-height hit area */
+    width: 3.25rem;           /* wider touch target */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--nav-bg);
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.25s ease, background 0.15s ease;
+    pointer-events: none;     /* ignore when hidden */
+  }
+
+  /* Show arrows ONLY when hovering photos or the arrows, and on keyboard focus */
+  .slider:hover ~ .nav,
+  .nav:hover,
+  .slider:focus-within ~ .nav {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav:hover { background: var(--nav-bg-hover); }
+
+  .nav-left {
+    left: 0;
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+  }
+  .nav-right {
+    right: 0;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+  }
+
+  .nav svg { width: 1.6rem; height: 1.6rem; }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .index { font-size: 0.9rem; color: #444; }
+</style>
+
+{images.length === 0 ? (
+  <div role="status" aria-live="polite">
+    No images found in <code>src/assets/gallery/{norm}</code>.
+  </div>
+) : (
+  <>
+    <div class="wrap">
+      <div
+        class="slider"
+        id={`slider-${uid}`}
+        aria-label={`Image gallery: ${norm}`}
+        tabindex="0"
+      >
+        {images.map((img, i) => (
+          <figure class="slide">
+            <div class="frame" style={`--aspect:${aspect}`}>
+              <img
+                src={img.src}
+                width={img.width}
+                height={img.height}
+                alt={`${alt} ${i + 1} of ${images.length}`}
+                style="width:100%;height:100%;object-fit:cover"
+                loading={i === 0 ? 'eager' : 'lazy'}
+                decoding="async"
+              />
+            </div>
+          </figure>
+        ))}
+      </div>
+
+      <!-- Overlay nav buttons inside the gallery -->
+      <button class="nav nav-left" id={`prev-${uid}`} type="button" aria-label="Previous">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button class="nav nav-right" id={`next-${uid}`} type="button" aria-label="Next">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="controls">
+      <span class="index" id={`index-${uid}`} aria-live="polite">1 / {images.length}</span>
+    </div>
+
+    <!-- Pass vars for script -->
+    <script define:vars={{ uid, auto, delay }}>
+      const slider = document.getElementById(`slider-${uid}`);
+      const slides = Array.from(slider.children);
+      const prev = document.getElementById(`prev-${uid}`);
+      const next = document.getElementById(`next-${uid}`);
+      const index = document.getElementById(`index-${uid}`);
+
+      function activeIndex() {
+        const w = slider.clientWidth;
+        return Math.round(slider.scrollLeft / w);
+      }
+
+      function gotoIndex(i) {
+        const clamped = Math.max(0, Math.min(i, slides.length - 1));
+        slider.scrollTo({ left: clamped * slider.clientWidth, behavior: 'smooth' });
+      }
+
+      function goto(dir) {
+        const i = activeIndex();
+        const nextI = i + dir;
+        if (nextI >= slides.length) {
+          slider.scrollTo({ left: 0, behavior: 'smooth' });
+        } else if (nextI < 0) {
+          slider.scrollTo({ left: (slides.length - 1) * slider.clientWidth, behavior: 'smooth' });
+        } else {
+          gotoIndex(nextI);
+        }
+      }
+
+      // Blur button after click so focus doesn't keep arrows visible
+      prev.addEventListener('click', (e) => { stopAuto(); goto(-1); startAuto(); e.currentTarget.blur(); });
+      next.addEventListener('click', (e) => { stopAuto(); goto(1);  startAuto(); e.currentTarget.blur(); });
+
+      // Index counter via intersection observer
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            const i = slides.indexOf(e.target);
+            index.textContent = `${i + 1} / ${slides.length}`;
+          }
+        }
+      }, { root: slider, threshold: 0.6 });
+      slides.forEach(el => io.observe(el));
+
+      // Keyboard support
+      slider.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') { stopAuto(); goto(-1); startAuto(); }
+        if (e.key === 'ArrowRight') { stopAuto(); goto(1);  startAuto(); }
+      });
+
+      // ===== Autoplay (with smart pause) =====
+      let timer = null;
+      const prefersReduced = window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
+
+      function startAuto() {
+        if (!auto || prefersReduced || slides.length <= 1) return;
+        stopAuto();
+        timer = setInterval(() => {
+          if (document.visibilityState !== 'visible') return;
+          if (slider.matches(':hover')) return;
+          if (document.activeElement && slider.contains(document.activeElement)) return;
+          goto(1);
+        }, Math.max(1200, Number(delay) || 5000));
+      }
+      function stopAuto() { if (timer) { clearInterval(timer); timer = null; } }
+
+      slider.addEventListener('mouseenter', stopAuto);
+      slider.addEventListener('mouseleave', startAuto);
+      slider.addEventListener('focusin',  stopAuto);
+      slider.addEventListener('focusout', startAuto);
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'hidden') stopAuto();
+        else startAuto();
+      });
+
+      startAuto();
+
+      // Keep alignment on resize
+      window.addEventListener('resize', () => {
+        const i = activeIndex();
+        slider.scrollTo({ left: i * slider.clientWidth });
+      }, { passive: true });
+    </script>
+  </>
+)}
