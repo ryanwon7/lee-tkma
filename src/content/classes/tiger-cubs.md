@@ -1,15 +1,11 @@
 ---
-title: "Community Outreach Day: Serving Our Neighbors"
-date: 2025-03-15
-endDate: 2025-03-15
-time: "9:00 AM - 3:00 PM"
-location: "Various Community Locations"
-image: "/uploads/events/community-outreach-day.webp"
-summary: "Join us for a day of service as we reach out to our community with practical help and God's love."
-tags: ["outreach", "service", "community"]
-registrationRequired: true
-registrationLink: "https://example.com/outreach-day-2025"
-draft: false
+name: "Tiger Cubs"
+slug: "summer-camp"
+logo: "/uploads/classes/community.webp"
+gallery: "/src/gallery/tigercubs/"
+summary: "TKMA Tiger Cubs"
+days: "Tuesday, Thursday"
+order: 1
 ---
 
 ## Serving Our Community Together
