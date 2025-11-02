@@ -10,7 +10,7 @@ const programsCollection = defineCollection({
     days: z.string().optional(),
     order: z.number().optional(),
     availability: z.string().optional(),
-    image_position: z.string().optional(),,
+    image_position: z.string().optional(),
     draft: z.boolean().default(false).optional(),
   }),
 });
