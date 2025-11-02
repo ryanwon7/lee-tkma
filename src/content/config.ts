@@ -10,7 +10,7 @@ const programsCollection = defineCollection({
     days: z.string().optional(),
     order: z.number().optional(),
     availability: z.string().optional(),
-    image_position: z.string(),
+    image_position: z.string().optional(),,
     draft: z.boolean().default(false).optional(),
   }),
 });
@@ -22,7 +22,9 @@ const classesCollection = defineCollection({
     logo: z.string().startsWith('/uploads/classes/'),
     gallery: z.string(),
     summary: z.string(),
+    occurs: z.string().optional(),
     days: z.string().optional(),
+    time: z.string().optional(),
     order: z.number().optional(),
     image_position: z.string().optional(),
     draft: z.boolean().default(false).optional(),

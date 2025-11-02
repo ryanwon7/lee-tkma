@@ -2,7 +2,7 @@
 export interface Props {
   href?: string;
   variant?: "primary" | "secondary" | "accent" | "outline";
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "xl";
   class?: string;
   target?: string;
   rel?: string;
@@ -51,10 +51,10 @@ const variantStyles = {
     "shadow-lg hover:shadow-xl",
   ].join(" "),
   secondary: [
-    "bg-gradient-to-r from-purple-600 to-purple-700 text-white border-purple-600",
-    "hover:from-purple-700 hover:to-purple-800 hover:border-purple-700",
-    "active:from-purple-800 active:to-purple-900",
-    "focus:ring-purple-500",
+    "bg-gradient-to-r from-secondary-600 to-secondary-700 text-white border-secondary-600",
+    "hover:from-secondary-700 hover:to-secondary-800 hover:border-secondary-700",
+    "active:from-secondary-800 active:to-secondary-900",
+    "focus:ring-secondary-500",
     "shadow-lg hover:shadow-xl",
   ].join(" "),
   accent: [

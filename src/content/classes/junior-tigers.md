@@ -1,14 +1,13 @@
 ---
-name: "Tiger Cubs Class"
-slug: "summer-camp"
-logo: "/uploads/classes/tigercubs.jpg"
-gallery: "tigercubs"
-summary: "Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting."
-occurs: "Two Classes every Week"
-days: "Tuesday, Thursday"
+name: "Junior Tiger Class"
+slug: "junior-tiger"
+logo: "/uploads/classes/juniortiger.jpg"
+gallery: "juniortigers"
+summary: "Our Junior Tiger Classes are for 6 to 12 year old students. Here, students are introduced to more challenging activities and martial arts curriculum, but still in a fun and enjoyable setting!"
+occurs: "Three Classes every Week"
+days: "Monday - Friday"
 time: "Varies (check schedule)"
-image_position: "50% 38%"
-order: 1
+order: 2
 ---
 
 ## Tiger Cubs Classes
