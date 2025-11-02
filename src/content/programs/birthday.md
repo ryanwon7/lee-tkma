@@ -3,7 +3,7 @@ name: "Birthday Parties"
 slug: "birthday"
 logo: "/uploads/programs/birthday.jpg"
 gallery: "birthday"
-summary: "Happy Birthday to you."
+summary: "Celebrate your birthday in martial arts style! Available to non-Tiger Kicks members as well."
 order: 1
 availability: "Year-Round (By Appointment)"
 days: "Saturday"

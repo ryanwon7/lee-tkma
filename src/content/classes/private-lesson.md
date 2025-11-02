@@ -1,20 +1,18 @@
 ---
-name: "Tiger Cubs Class"
-slug: "summer-camp"
-logo: "/uploads/classes/tigercubs.jpg"
-gallery: "tigercubs"
-summary: "Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting."
-occurs: "Two Classes every Week"
-days: "Tuesday, Thursday"
-time: "Varies (check schedule)"
-image_position: "50% 38%"
-order: 1
+name: "Private Lessons"
+slug: "private-lesson"
+logo: "/uploads/classes/privatelesson.jpg"
+gallery: "privatelesson"
+summary: "At Tiger Kicks, we know that everyone has busy schedules and learn well in different environments. Private lessons help give more personalized instructions for our students."
+occurs: "By Appointment"
+days: "Contact to Schedule"
+image_position: "50% 60%"
+order: 6
 ---
 
-## Tiger Cubs Classes
+## Private Lessons
 
-Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting.
-
+At Tiger Kicks, we know that everyone has busy schedules and learn well in different environments. Private lessons help give more personalized instructions for our students.
 ### Service Projects
 
 **Food Distribution**

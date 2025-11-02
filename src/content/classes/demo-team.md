@@ -1,19 +1,19 @@
 ---
-name: "Tiger Cubs Class"
-slug: "summer-camp"
-logo: "/uploads/classes/tigercubs.jpg"
-gallery: "tigercubs"
-summary: "Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting."
-occurs: "Two Classes every Week"
-days: "Tuesday, Thursday"
+name: "Demo Team Class"
+slug: "demo-team"
+logo: "/uploads/classes/demoteam.jpg"
+gallery: "demoteam"
+summary: "Our Demonstration Team class teaches students how to perform martial arts in a team setting, learning teamwork through martial arts. Train to showcase Tiger Kicks events and compete in tournaments."
+occurs: "Once a Week"
+days: "Friday"
 time: "Varies (check schedule)"
-image_position: "50% 38%"
-order: 1
+image_position: "50% 40%"
+order: 5
 ---
 
-## Tiger Cubs Classes
+## Demonstration Team
 
-Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting.
+Our Demonstration Team class teaches students how to perform martial arts in a team setting, learning teamwork through martial arts. Train to showcase Tiger Kicks events and compete in tournaments.
 
 ### Service Projects
 

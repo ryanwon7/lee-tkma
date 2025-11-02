@@ -1,19 +1,19 @@
 ---
-name: "Tiger Cubs Class"
-slug: "summer-camp"
-logo: "/uploads/classes/tigercubs.jpg"
-gallery: "tigercubs"
-summary: "Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting."
-occurs: "Two Classes every Week"
-days: "Tuesday, Thursday"
+name: "Family, Team & Adult Class"
+slug: "family-class"
+logo: "/uploads/classes/familyclass.jpg"
+gallery: "familyclass"
+summary: "Our Family, Teen, & Adult class is open to all students age 12 and above. Bond with your family through martial arts and physical training."
+occurs: "Daily"
+days: "Monday - Friday"
 time: "Varies (check schedule)"
-image_position: "50% 38%"
-order: 1
+image_position: "50% 66%"
+order: 3
 ---
 
-## Tiger Cubs Classes
+## Family Class
 
-Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting.
+Our Family, Teen, & Adult class is open to all students age 12 and above. Bond with your family through martial arts and physical training.
 
 ### Service Projects
 

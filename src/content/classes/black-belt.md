@@ -1,17 +1,17 @@
 ---
-name: "Tiger Cubs Class"
-slug: "summer-camp"
-logo: "/uploads/classes/tigercubs.jpg"
-gallery: "tigercubs"
-summary: "Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting."
+name: "Black Belt Class"
+slug: "black-belt"
+logo: "/uploads/classes/blackbelt.jpg"
+gallery: "blackbelt"
+summary: "Our Black Belt Class is open to all students who have earned a first degree black belt and above. Learn and grow with your fellow black belt students."
 occurs: "Two Classes every Week"
 days: "Tuesday, Thursday"
 time: "Varies (check schedule)"
-image_position: "50% 38%"
-order: 1
+image_position: "50% 53%"
+order: 4
 ---
 
-## Tiger Cubs Classes
+## Black Belt Class
 
 Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting.
 
