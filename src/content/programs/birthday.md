@@ -4,7 +4,7 @@ slug: "birthday"
 logo: "/uploads/programs/birthday.jpg"
 gallery: "birthday"
 summary: "Celebrate your birthday in martial arts style! Available to non-Tiger Kicks members as well."
-order: 1
+order: 2
 availability: "Year-Round (By Appointment)"
 days: "Saturday"
 image_position: "50% 20%"
