@@ -4,7 +4,7 @@ slug: "summercamp"
 logo: "/uploads/programs/summercamp.jpg"
 gallery: "summercamp"
 summary: "Students learn martial arts skills along with other physical activities and academic curriculum in our summer camp, which runs all day in the summer."
-order: 2
+order: 1
 availability: "Summer (June - August)"
 days: "Monday - Friday"
 image_position: "top center"
