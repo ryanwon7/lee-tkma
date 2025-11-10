@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ryanwon7.github.io', // Replace with your site URL
+  site: 'https://jesuwonball.com', // Replace with your site URL
   integrations: [
     tailwind(),
     sitemap(),
