@@ -4,7 +4,7 @@ import PageHeader from "../../components/Sections/PageHeader.astro";
 import Card from "../../components/UI/Card.astro";
 import { getCollection } from "astro:content";
 
-// Fetch all ministries
+// Fetch all classes
 const all = await getCollection("classes", ({ data }) =>
   import.meta.env.PROD ? !data.draft : true
 );
