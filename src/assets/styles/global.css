@@ -87,6 +87,10 @@
   }
 }
 
+div.email > span:nth-child(2) {
+	display: none;
+}
+
 details > summary::-webkit-details-marker {
   display: none;
 }
