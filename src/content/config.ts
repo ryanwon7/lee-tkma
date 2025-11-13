@@ -31,15 +31,7 @@ const classesCollection = defineCollection({
   }),
 });
 
-const siteInfoCollection = defineCollection({
-  type: 'content', // Could be 'data' if only frontmatter is needed
-  schema: z.object({
-    title: z.string(), // For identifying the content block
-  }),
-});
-
 export const collections = {
   programs: programsCollection,
   classes: classesCollection,
-  siteInfo: siteInfoCollection,
 };

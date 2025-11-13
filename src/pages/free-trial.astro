@@ -294,13 +294,8 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
               </div>
               <div class="ml-4">
                 <h3 class="text-xl font-bold mb-1">Email</h3>
-                <p class="text-gray-700">
-                  <a
-                    href="mailto:masterleetigerkicks@gmail.com"
-                    class="hover:text-primary-600"
-                  >
-                    masterleetigerkicks@gmail.com
-                  </a>
+                <p>
+                  <div class="email mb-4 text-gray-300">maste<span>rlee</span>tigerkicks<span>pa</span>@gma<span>il.</span>com</div>
                 </p>
               </div>
             </div>
@@ -482,7 +477,7 @@ const WEB3FORMS_ACCESS_KEY = import.meta.env.WEB3FORMS_ACCESS_KEY || "";
           const errorMessage =
             error instanceof Error ? error.message : "Unknown error";
           showMessage(
-            `Sorry, there was an error: ${errorMessage}. Please try again or contact us directly at masterleetigerkicks@gmail.com`,
+            `Sorry, there was an error: ${errorMessage}. Please try again or contact us directly at `,
             "error",
           );
         }
