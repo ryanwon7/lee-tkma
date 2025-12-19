@@ -10,41 +10,28 @@ time: "Varies (check schedule)"
 order: 2
 ---
 
-## Tiger Cubs Classes
+## Junior Tigers Class
+Our Junior Tigers class is designed for students ages 6–12. This program helps children grow in confidence, focus, and skill as they train in Taekwondo and progress through the full belt system, from white belt to black belt.
+**** 
+### Class Goals
 
-Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting.
+**Confidence:**
+Students build confidence as they learn new techniques, set goals, and earn belt promotions through consistent effort.
 
-### Service Projects
+**Discipline & Focus:**
+This class teaches students how to listen, follow instructions, and stay focused—skills that help both in martial arts and at school.
 
-**Food Distribution**
-- Location: Community Center
-- Time: 9:00 AM - 12:00 PM
-- Help distribute groceries to families in need
+**Respect:**
+Respect for instructors, classmates, and oneself is a key part of Junior Tigers training and is reinforced in every class.
 
-**Neighborhood Cleanup**
-- Location: Riverside Park
-- Time: 9:00 AM - 1:00 PM
-- Beautify our local park and walking trails
+**Martial Arts Progression:**
+Students receive structured instruction that supports steady growth through the white belt to black belt system, building strong fundamentals at each level.
+****
 
-**Senior Care Visits**
-- Location: Sunset Manor Nursing Home
-- Time: 10:00 AM - 2:00 PM
-- Visit with residents and provide companionship
+### Class Schedule
+Our Junior Tiger class is traditionally split into three different sections of classes, based on their belt:
+- Junior Tiger 1: White, Yellow, and High Yellow Belts
+- Junior Tiger 2: Green Belt to High Brown Belt
+- Junior Tiger 3: Red Belt to Black Belt
 
-**Home Repairs**
-- Location: Various homes
-- Time: 9:00 AM - 3:00 PM
-- Minor repairs for elderly and disabled community members
-
-### What to Bring
-
-- Work clothes and comfortable shoes
-- Water bottle and snacks
-- Servant's heart and positive attitude
-- Any specific tools (we'll provide details upon registration)
-
-### Registration
-
-Please register by March 8th so we can plan accordingly. Indicate your preferred service project when registering.
-
-*Lunch will be provided for all volunteers*
+Each of these classes typically runs twice a week. Time and day of the week varies by season, so please check the schedule for exact details.

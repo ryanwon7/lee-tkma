@@ -11,41 +11,23 @@ image_position: "50% 66%"
 order: 3
 ---
 
-## Family Class
+## Family, Teen, & Adult Class
+Our Family, Teen, & Adult class is open to students ages 12 and up. It’s a great way for teens, adults, and families to train together, stay active, and learn Taekwondo in a supportive environment.
+****
+### Class Goals
 
-Our Family, Teen, & Adult class is open to all students age 12 and above. Bond with your family through martial arts and physical training.
+**Confidence:**
+This class helps students build confidence as they learn new skills and see their progress over time.
 
-### Service Projects
+**Discipline:**
+Discipline is an important part of martial arts. Students learn focus, respect, and self-control that can be used both in the studio and in everyday life.
 
-**Food Distribution**
-- Location: Community Center
-- Time: 9:00 AM - 12:00 PM
-- Help distribute groceries to families in need
+**Unity:**
+Training alongside family members and other teens and adults helps create strong connections and a sense of teamwork through shared goals and physical activity.
 
-**Neighborhood Cleanup**
-- Location: Riverside Park
-- Time: 9:00 AM - 1:00 PM
-- Beautify our local park and walking trails
+**Martial Arts Skills:**
+Students receive instruction suited to their age and experience level, helping them safely improve their techniques and work toward their personal goals.
+****
 
-**Senior Care Visits**
-- Location: Sunset Manor Nursing Home
-- Time: 10:00 AM - 2:00 PM
-- Visit with residents and provide companionship
-
-**Home Repairs**
-- Location: Various homes
-- Time: 9:00 AM - 3:00 PM
-- Minor repairs for elderly and disabled community members
-
-### What to Bring
-
-- Work clothes and comfortable shoes
-- Water bottle and snacks
-- Servant's heart and positive attitude
-- Any specific tools (we'll provide details upon registration)
-
-### Registration
-
-Please register by March 8th so we can plan accordingly. Indicate your preferred service project when registering.
-
-*Lunch will be provided for all volunteers*
+### Class Schedule
+Our Family class typically runs every day, in the last class slot of the day. The start time of the class varies by season, so please check the schedule for exact details.
