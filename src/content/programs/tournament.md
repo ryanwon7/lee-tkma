@@ -9,33 +9,31 @@ availability: "Spring, Fall"
 image_position: "50% 40%"
 ---
 
-## Tournaments and Competitions
+## Tournaments & Competitions
+Our Tournaments & Competitions program gives students the opportunity to test their skills, build confidence, and gain valuable experience in a supportive and exciting setting. We typically attend tournaments and competitions twice a year, welcoming students of different ages and skill levels to participate.
+****
+### Competition Opportunities
 
-Our students compete in various tournament and competitions year-round to hone our skills and train even harder! Learn more about past results and what competitions we train in.
+**Forms (Poomsae):**
+Students demonstrate their forms, focusing on technique, balance, power, and control.
 
-## Fun Activities All throughout the day!
+**Board Breaking:**
+Competitors showcase accuracy, strength, and focus through a variety of board breaking techniques.
 
-### Takewondo Classes
-- Learn Korean Martial Arts
-- Great for exercise and physical coordination
+**Sparring:**
+Sparring events allow students to practice timing, control, and strategy in a safe, rule-based environment.
 
-### Korean Language Classes
-- Learn more about Korean
+**Demo Team:**
+Demo Team members train specifically for performance-based competition, combining advanced skills, teamwork, and choreography.
+****
+### Benefits of Competing
 
-### Example
-- example activity detail
-
-### Field Trips
-- Fun weekly field trips
-
-## Summer Camp Availability
-
-### Dates
-- Runs Monday - Friday during summer months (June to August)
-
-### Time
-- Camp Starts at 7 AM
-- Regular Pickup starts at 3 PM
-- Extended Pickup Hours Available
-
-Contact to learn more about our summer camp or to volunteer.
+Participating in tournaments helps students build confidence, goal-setting skills, sportsmanship, and resilience—both on and off the mat.
+****
+### Past Competitions
+- 2025 US Olympic Taekwondo Championship
+- 2025 Mid-Atlantic AAU Invitational
+- 2024 US Olympic Taekwondo Championship
+- 2025 Mid-Atlantic AAU Invitational
+- 2024 First State Taekwondo Invitiational
+- 2023 First State Taekwondo Invitational

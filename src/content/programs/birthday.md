@@ -10,33 +10,23 @@ days: "Saturday"
 image_position: "50% 20%"
 ---
 
-## Birthday Party
+## Birthday Parties
+Celebrate your child’s birthday with a fun and active Martial Arts Birthday Party at our studio! Our parties are a great way for kids to enjoy Taekwondo-themed games, activities, and challenges in a safe and exciting environment.
+****
+### Party Highlights
 
-Students learn martial arts skills along with other physical activities and academic curriculum in our summer camp, which runs all day in the summer.
+**Martial Arts Activities:**
+Kids take part in age-appropriate martial arts drills, games, and exercises that are fun for both beginners and experienced students.
 
-## Fun Activities All throughout the day!
+**Structured Fun:**
+Parties are led by experienced instructors who keep activities organized, energetic, and engaging from start to finish.
 
-### Takewondo Classes
-- Learn Korean Martial Arts
-- Great for exercise and physical coordination
+**Team Games & Challenges:**
+Guests enjoy group games and team activities that encourage teamwork, confidence, and lots of smiles.
 
-### Korean Language Classes
-- Learn more about Korean
+**Stress-Free for Parents:**
+We handle the activities and supervision, so parents can relax and enjoy the celebration.
+****
+### Scheduling
 
-### Example
-- example activity detail
-
-### Field Trips
-- Fun weekly field trips
-
-## Summer Camp Availability
-
-### Dates
-- Runs Monday - Friday during summer months (June to August)
-
-### Time
-- Camp Starts at 7 AM
-- Regular Pickup starts at 3 PM
-- Extended Pickup Hours Available
-
-Contact to learn more about our summer camp or to volunteer.
+Birthday parties are available on Saturdays by appointment. Please contact the studio for availability, pricing, and booking details.

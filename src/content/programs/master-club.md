@@ -13,30 +13,17 @@ image_position: "50% 67%"
 ## MAster Club Program
 
 Our Master Club Program teaches our students even more in depth knowledge of martial arts, and allows students to attend special classes, such as our Master Club Weapon Class.
+****
+### Program Highlights
 
-## Fun Activities All throughout the day!
+**Master Club Weapon Class:**
+Students can attend our Master Club Weapon Class, which gives instruction on how to handle various martial arts demonstration weapons, such as bo-staffs and nunchuks.
 
-### Takewondo Classes
-- Learn Korean Martial Arts
-- Great for exercise and physical coordination
+**Open Gym Classes:**
+We occasionally offer Open Gym classes to our students to help them combine elements of gymnastics with Taekwondo to learn more advanced techniques and combinations. These are open free of charge to our Master Club members.
 
-### Korean Language Classes
-- Learn more about Korean
-
-### Example
-- example activity detail
-
-### Field Trips
-- Fun weekly field trips
-
-## Summer Camp Availability
-
-### Dates
-- Runs Monday - Friday during summer months (June to August)
-
-### Time
-- Camp Starts at 7 AM
-- Regular Pickup starts at 3 PM
-- Extended Pickup Hours Available
-
-Contact to learn more about our summer camp or to volunteer.
+**Exclusive Uniforms:**
+We also offer exclusive uniforms for our master club members that allow for customization beyond a standard martial arts uniform.
+****
+### Program Availability
+Please contact us if you are interested in the Master Club Program. The Master Club Weapon Class typically runs on Mondays, please check the schedule for the exact time.

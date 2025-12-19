@@ -12,40 +12,27 @@ order: 4
 ---
 
 ## Black Belt Class
+Our Black Belt class is designed for advanced students who have demonstrated dedication, discipline, and a strong foundation in Taekwondo. This class challenges students to refine their techniques, deepen their understanding of the art, and continue growing both physically and mentally as martial artists.
 
-Our Tiger Cubs classes are for 4-5 year old students, and are aimed to teach them confidence and motor skills in a fun but challenging setting.
+****
 
-### Service Projects
+### Class Goals
 
-**Food Distribution**
-- Location: Community Center
-- Time: 9:00 AM - 12:00 PM
-- Help distribute groceries to families in need
+**Mastery:**
+Black Belt training focuses on polishing fundamentals while advancing complex techniques, combinations, and forms to a higher level of precision and control.
 
-**Neighborhood Cleanup**
-- Location: Riverside Park
-- Time: 9:00 AM - 1:00 PM
-- Beautify our local park and walking trails
+**Leadership:**
+Students are encouraged to develop leadership skills, setting a positive example for others in and out of the studio. Black belts learn how to mentor junior students and represent the values of Taekwondo.
 
-**Senior Care Visits**
-- Location: Sunset Manor Nursing Home
-- Time: 10:00 AM - 2:00 PM
-- Visit with residents and provide companionship
+**Mental Strength:**
+This class emphasizes perseverance, focus, and resilience. Training pushes students to overcome challenges and continue improving even at advanced levels.
 
-**Home Repairs**
-- Location: Various homes
-- Time: 9:00 AM - 3:00 PM
-- Minor repairs for elderly and disabled community members
+**Martial Arts Philosophy:**
+Black belt students explore the deeper principles, history, and philosophy of Taekwondo, reinforcing respect, humility, and lifelong learning.
 
-### What to Bring
 
-- Work clothes and comfortable shoes
-- Water bottle and snacks
-- Servant's heart and positive attitude
-- Any specific tools (we'll provide details upon registration)
+****
 
-### Registration
+### Class Schedule
 
-Please register by March 8th so we can plan accordingly. Indicate your preferred service project when registering.
-
-*Lunch will be provided for all volunteers*
+Our Black Belt class is offered on select days each week. Class times may vary by season, so please refer to the current schedule for the most up-to-date information.

@@ -11,39 +11,22 @@ order: 6
 ---
 
 ## Private Lessons
+Our Private Lessons offer one-on-one or small-group instruction for students who want personalized Taekwondo training. These sessions are tailored to each student’s goals, skill level, and learning pace, making them a great option for focused improvement.
+****
+### Class Goals
 
-At Tiger Kicks, we know that everyone has busy schedules and learn well in different environments. Private lessons help give more personalized instructions for our students.
-### Service Projects
+**Personalized Instruction:**
+Lessons are customized to the student’s needs, whether they are working on basics, advanced techniques, forms, or sparring skills.
 
-**Food Distribution**
-- Location: Community Center
-- Time: 9:00 AM - 12:00 PM
-- Help distribute groceries to families in need
+**Faster Progress:**
+With individual attention, students can improve more quickly and gain a clearer understanding of techniques and corrections.
 
-**Neighborhood Cleanup**
-- Location: Riverside Park
-- Time: 9:00 AM - 1:00 PM
-- Beautify our local park and walking trails
+**Confidence:**
+Private lessons help students build confidence by strengthening skills and addressing specific challenges in a supportive setting.
 
-**Senior Care Visits**
-- Location: Sunset Manor Nursing Home
-- Time: 10:00 AM - 2:00 PM
-- Visit with residents and provide companionship
+**Goal-Focused Training:**
+Whether preparing for belt testing, competitions, or skill refinement, private lessons are designed to help students reach their personal goals.
+****
+### Scheduling
 
-**Home Repairs**
-- Location: Various homes
-- Time: 9:00 AM - 3:00 PM
-- Minor repairs for elderly and disabled community members
-
-### What to Bring
-
-- Work clothes and comfortable shoes
-- Water bottle and snacks
-- Servant's heart and positive attitude
-- Any specific tools (we'll provide details upon registration)
-
-### Registration
-
-Please register by March 8th so we can plan accordingly. Indicate your preferred service project when registering.
-
-*Lunch will be provided for all volunteers*
+Private lessons are scheduled by appointment and can be arranged to fit your availability. Please contact the studio for pricing and scheduling details.
